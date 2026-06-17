@@ -98,7 +98,7 @@ const en = {
       'Supplying engineering plastic parts indirectly to global OEMs through long-standing Tier-1 partnerships.',
     oemTitle: 'OEM Business Mix',
     tier1Title: 'Direct Tier-1 Customers',
-    tier1List: ['Woory', 'Kwangjin India', 'Mindarika', 'Webasto', 'DS Connectors', 'Kwangsung Sundhar', 'KSASPL', 'ZF Rane'],
+    tier1List: ['Woory', 'Kwangjin India', 'Mindarika', 'Webasto', 'DS Connectors', 'Kwangsung Sundhar', 'ZF Rane'],
     segmentsTitle: 'Automotive Segments We Serve',
     segments: [
       { name: 'Sunroof Systems', body: 'System frames, lock & lift cam slots, BOW and cross-member components.' },
@@ -112,7 +112,7 @@ const en = {
   },
   footer: {
     addressTitle: 'Manufacturing Location',
-    address: 'Chennai, Tamil Nadu, India — 3 manufacturing units',
+    address: 'Shed No A1/A, SIDCO Industrial Estate, Post Office Main Road, Chennai, Tamil Nadu 600058',
     quickLinks: 'Quick Links',
     getInTouch: 'Get in Touch',
     rights: 'All rights reserved.',
@@ -242,7 +242,7 @@ const en = {
     formMessage: 'Tell us about your requirement',
     formSubmit: 'Send Message',
     locationTitle: 'Our Location',
-    locationBody: 'Chennai, Tamil Nadu, India',
+    locationBody: 'Shed No A1/A, SIDCO Industrial Estate, Post Office Main Road, Chennai, Tamil Nadu 600058',
   },
   careersPage: {
     title: 'Careers at Finetech',

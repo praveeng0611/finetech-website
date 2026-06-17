@@ -11,7 +11,7 @@ export default function CapabilitiesPage() {
   return (
     <div>
       <PageHero
-        image="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=2000&q=80"
+        image="https://images.unsplash.com/photo-1764185800646-f75f7e16e465?auto=format&fit=crop&w=2000&q=80"
         title={c.title}
         subtitle={c.subtitle}
       />

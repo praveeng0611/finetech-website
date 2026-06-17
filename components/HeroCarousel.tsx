@@ -7,7 +7,7 @@ import { useI18n } from '@/lib/i18n'
 
 const SLIDE_IMAGES = [
   'https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?auto=format&fit=crop&w=2400&q=80',
-  'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=2400&q=80',
+  'https://images.unsplash.com/photo-1764185800646-f75f7e16e465?auto=format&fit=crop&w=2400&q=80',
   'https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=2400&q=80',
   'https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=2400&q=80',
 ]

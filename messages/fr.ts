@@ -100,7 +100,7 @@ const fr: Messages = {
       'Fournisseur de pièces plastiques techniques pour des équipementiers mondiaux via des partenariats durables avec des fournisseurs de rang 1.',
     oemTitle: 'Répartition des affaires par équipementier',
     tier1Title: 'Clients directs de rang 1',
-    tier1List: ['Woory', 'Kwangjin India', 'Mindarika', 'Webasto', 'DS Connectors', 'Kwangsung Sundhar', 'KSASPL', 'ZF Rane'],
+    tier1List: ['Woory', 'Kwangjin India', 'Mindarika', 'Webasto', 'DS Connectors', 'Kwangsung Sundhar', 'ZF Rane'],
     segmentsTitle: 'Segments automobiles que nous servons',
     segments: [
       { name: 'Systèmes de toit ouvrant', body: 'Cadres de système, fentes de came de verrouillage et de levage, composants BOW et traverses.' },
@@ -114,7 +114,7 @@ const fr: Messages = {
   },
   footer: {
     addressTitle: 'Site de production',
-    address: 'Chennai, Tamil Nadu, Inde — 3 sites de production',
+    address: 'Shed No A1/A, SIDCO Industrial Estate, Post Office Main Road, Chennai, Tamil Nadu 600058',
     quickLinks: 'Liens rapides',
     getInTouch: 'Nous contacter',
     rights: 'Tous droits réservés.',
@@ -244,7 +244,7 @@ const fr: Messages = {
     formMessage: 'Décrivez votre besoin',
     formSubmit: 'Envoyer le message',
     locationTitle: 'Notre emplacement',
-    locationBody: 'Chennai, Tamil Nadu, Inde',
+    locationBody: 'Shed No A1/A, SIDCO Industrial Estate, Post Office Main Road, Chennai, Tamil Nadu 600058',
   },
   careersPage: {
     title: 'Carrières chez Finetech',

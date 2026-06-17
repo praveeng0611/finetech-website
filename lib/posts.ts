@@ -15,7 +15,7 @@ export const posts: BlogPost[] = [
     title: 'Precision Mold Design Trends Shaping Automotive Plastics in 2026',
     excerpt:
       'From conformal cooling to simulation-first tool design, here is how mold engineering is evolving to meet tighter tolerances and shorter cycle times.',
-    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1600&q=80',
+    image: 'https://images.unsplash.com/photo-1764185800646-f75f7e16e465?auto=format&fit=crop&w=1600&q=80',
     date: 'May 12, 2026',
     category: 'Tooling & Design',
     minutesRead: 6,

@@ -64,7 +64,7 @@ export default function Footer() {
 
         <div className="mt-10 pt-6 border-t border-white/15 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-white/60">
           <span>© {year} {t.footer.domainNote}. {t.footer.rights}</span>
-          <span>Chennai, Tamil Nadu, India</span>
+          <span>Chennai, Tamil Nadu 600058</span>
         </div>
       </div>
     </footer>

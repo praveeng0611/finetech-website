@@ -100,7 +100,7 @@ const ko: Messages = {
       '오랜 1차 협력사 관계를 통해 글로벌 OEM에 엔지니어링 플라스틱 부품을 공급하고 있습니다.',
     oemTitle: 'OEM 매출 비중',
     tier1Title: '직접 거래 1차 협력사',
-    tier1List: ['Woory', 'Kwangjin India', 'Mindarika', 'Webasto', 'DS Connectors', 'Kwangsung Sundhar', 'KSASPL', 'ZF Rane'],
+    tier1List: ['Woory', 'Kwangjin India', 'Mindarika', 'Webasto', 'DS Connectors', 'Kwangsung Sundhar', 'ZF Rane'],
     segmentsTitle: '담당 자동차 부문',
     segments: [
       { name: '선루프 시스템', body: '시스템 프레임, 락 및 리프트 캠 슬롯, BOW 및 크로스 멤버 구성품.' },
@@ -114,7 +114,7 @@ const ko: Messages = {
   },
   footer: {
     addressTitle: '생산 시설 위치',
-    address: '인도 타밀나두주 첸나이 — 3개 생산 시설',
+    address: 'Shed No A1/A, SIDCO Industrial Estate, Post Office Main Road, Chennai, Tamil Nadu 600058',
     quickLinks: '바로가기',
     getInTouch: '문의하기',
     rights: '모든 권리 보유.',
@@ -244,7 +244,7 @@ const ko: Messages = {
     formMessage: '요청 사항을 알려주세요',
     formSubmit: '메시지 보내기',
     locationTitle: '위치',
-    locationBody: '인도 타밀나두주 첸나이',
+    locationBody: 'Shed No A1/A, SIDCO Industrial Estate, Post Office Main Road, Chennai, Tamil Nadu 600058',
   },
   careersPage: {
     title: 'Finetech 채용',

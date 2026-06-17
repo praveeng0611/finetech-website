@@ -100,7 +100,7 @@ const de: Messages = {
       'Lieferung technischer Kunststoffteile an globale OEMs über langjährige Tier-1-Partnerschaften.',
     oemTitle: 'OEM-Geschäftsanteil',
     tier1Title: 'Direkte Tier-1-Kunden',
-    tier1List: ['Woory', 'Kwangjin India', 'Mindarika', 'Webasto', 'DS Connectors', 'Kwangsung Sundhar', 'KSASPL', 'ZF Rane'],
+    tier1List: ['Woory', 'Kwangjin India', 'Mindarika', 'Webasto', 'DS Connectors', 'Kwangsung Sundhar', 'ZF Rane'],
     segmentsTitle: 'Automobilsegmente, die wir bedienen',
     segments: [
       { name: 'Sonnendachsysteme', body: 'Systemrahmen, Schließ- und Hebenockenschlitze, BOW- und Querträgerkomponenten.' },
@@ -114,7 +114,7 @@ const de: Messages = {
   },
   footer: {
     addressTitle: 'Produktionsstandort',
-    address: 'Chennai, Tamil Nadu, Indien — 3 Fertigungsstätten',
+    address: 'Shed No A1/A, SIDCO Industrial Estate, Post Office Main Road, Chennai, Tamil Nadu 600058',
     quickLinks: 'Schnellzugriff',
     getInTouch: 'Kontakt aufnehmen',
     rights: 'Alle Rechte vorbehalten.',
@@ -244,7 +244,7 @@ const de: Messages = {
     formMessage: 'Beschreiben Sie Ihre Anforderung',
     formSubmit: 'Nachricht senden',
     locationTitle: 'Unser Standort',
-    locationBody: 'Chennai, Tamil Nadu, Indien',
+    locationBody: 'Shed No A1/A, SIDCO Industrial Estate, Post Office Main Road, Chennai, Tamil Nadu 600058',
   },
   careersPage: {
     title: 'Karriere bei Finetech',

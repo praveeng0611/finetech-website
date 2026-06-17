@@ -2,6 +2,7 @@
 
 import { useI18n } from '@/lib/i18n'
 import PageHero from '@/components/PageHero'
+import CustomerLogoCard from '@/components/CustomerLogoCard'
 
 export default function CustomersPage() {
   const { t } = useI18n()
@@ -17,35 +18,22 @@ export default function CustomersPage() {
       />
 
       <section className="py-16 lg:py-20 bg-themed">
-        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-          <h2 className="text-lg font-semibold text-themed mb-8">{c.oemNote}</h2>
-          <div className="space-y-4">
-            {c.oemMix
-              .slice()
-              .sort((a, b) => b.pct - a.pct)
-              .map((o, i) => (
-                <div key={i}>
-                  <div className="flex justify-between text-sm mb-1.5">
-                    <span className="font-semibold text-themed">{o.name}</span>
-                    <span className="text-muted-themed">{o.pct}%</span>
-                  </div>
-                  <div className="h-2.5 rounded-full bg-elevated-themed overflow-hidden">
-                    <div className="h-full rounded-full bg-accent-themed" style={{ width: `${o.pct}%` }} />
-                  </div>
-                </div>
-              ))}
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+          <h2 className="text-lg font-semibold text-themed mb-8 text-center">{c.oemNote}</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6">
+            {c.oemMix.map((o, i) => (
+              <CustomerLogoCard key={i} name={o.name} />
+            ))}
           </div>
         </div>
       </section>
 
       <section className="py-16 lg:py-20 bg-elevated-themed">
-        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-themed mb-8">{c.tier1Note}</h2>
-          <div className="flex flex-wrap justify-center gap-3">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
             {h.tier1List.map((name, i) => (
-              <span key={i} className="rounded-md bg-card-themed border border-themed px-5 py-2.5 text-sm font-medium text-themed">
-                {name}
-              </span>
+              <CustomerLogoCard key={i} name={name} />
             ))}
           </div>
         </div>

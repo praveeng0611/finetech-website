@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { CheckCircle2, ShieldCheck, ArrowRight } from 'lucide-react'
 import { useI18n } from '@/lib/i18n'
 import HeroCarousel from '@/components/HeroCarousel'
+import CustomerLogoCard from '@/components/CustomerLogoCard'
 
 const CAP_IMAGES = [
   'https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?auto=format&fit=crop&w=800&q=80',
@@ -103,11 +104,9 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16">
             <div>
               <h3 className="text-sm font-semibold uppercase tracking-widest text-accent-themed mb-4">{h.tier1Title}</h3>
-              <div className="flex flex-wrap gap-3">
+              <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4">
                 {h.tier1List.map((name, i) => (
-                  <span key={i} className="rounded-md bg-card-themed border border-themed px-4 py-2 text-sm font-medium text-themed">
-                    {name}
-                  </span>
+                  <CustomerLogoCard key={i} name={name} size="sm" />
                 ))}
               </div>
             </div>

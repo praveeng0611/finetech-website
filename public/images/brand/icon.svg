@@ -1,0 +1,22 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hexFill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B3A63"/>
+      <stop offset="100%" stop-color="#0E2440"/>
+    </linearGradient>
+  </defs>
+  <!-- Precision die/mold hexagon -->
+  <polygon points="60,4 109,32 109,88 60,116 11,88 11,32"
+           fill="url(#hexFill)" stroke="#6B7C93" stroke-width="2"/>
+  <!-- Inner machined bevel ring -->
+  <polygon points="60,16 99,38 99,82 60,104 21,82 21,38"
+           fill="none" stroke="#9AAAC0" stroke-width="1" opacity="0.45"/>
+  <!-- Stylized F formed from precision-cut bars -->
+  <g fill="#F4F6F8">
+    <rect x="42" y="34" width="11" height="52" rx="1.5"/>
+    <rect x="42" y="34" width="36" height="11" rx="1.5"/>
+    <rect x="42" y="56" width="28" height="11" rx="1.5"/>
+  </g>
+  <!-- Injection gate point / accent -->
+  <circle cx="80" cy="80" r="7" fill="#E8541F"/>
+</svg>

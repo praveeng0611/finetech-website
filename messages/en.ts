@@ -1,0 +1,263 @@
+const en = {
+  meta: {
+    siteName: 'Finetech Enterprises',
+    tagline: 'Precision Injection Molding for Automotive Interiors & Exteriors',
+  },
+  nav: {
+    home: 'Home',
+    about: 'About Us',
+    capabilities: 'Capabilities',
+    infrastructure: 'Infrastructure',
+    quality: 'Quality',
+    customers: 'Customers',
+    products: 'Products',
+    blog: 'Insights',
+    careers: 'Careers',
+    contact: 'Contact',
+    getQuote: 'Request a Quote',
+  },
+  home: {
+    heroSlides: [
+      {
+        kicker: 'Established 2004 · Chennai, India',
+        title: 'Precision Tooling & Injection Molding for the Automotive World',
+        subtitle:
+          'A single-shop solution for mold design, injection molding and secondary processes on engineering plastic parts — trusted by global OEMs and Tier-1 suppliers.',
+      },
+      {
+        kicker: '36+ Injection Molding Machines · Up to 950 Tons',
+        title: 'From Tool Room to Finished Part, Under One Roof',
+        subtitle:
+          'In-house EDM, wire-cut EDM, 5-axis & 4-axis VMC, and Zeiss CMM inspection back every mold we build and every part we mold.',
+      },
+      {
+        kicker: 'IATF 16949 · ISO 9001 · ISO 14001 · ISO 45001 · SQ Mark',
+        title: 'Certified Quality. Proven at Scale.',
+        subtitle:
+          '₹580 million turnover in FY25-26, 400+ molds produced, 220+ employees — serving Hyundai, KIA, Renault-Nissan, Toyota, Mahindra, Tata and MG through trusted Tier-1 partners.',
+      },
+      {
+        kicker: 'Sunroofs · Sun Visors · HVAC Panels · Door Window Regulators',
+        title: 'Engineering Plastic Parts That Move With the Vehicle',
+        subtitle:
+          'From sunroof system frames to door window regulator carrier plates, our molded components are engineered for fit, finish and function.',
+      },
+    ],
+    introTitle: 'Who We Are',
+    introBody:
+      'Finetech Enterprises provides single-shop solutions for car interior and exterior parts — spanning mold design, injection molding, and secondary processes on engineering plastic parts used across the automotive industry. Founded in 2004 with a 100 sq.ft EDM spark erosion job-work unit, we have grown into a three-unit manufacturing group across Chennai with an in-house tool room, two injection molding plants, and a dedicated quality and testing infrastructure.',
+    statsTitle: 'Finetech In Short',
+    stats: [
+      { value: '₹580M', label: 'Turnover, FY25-26' },
+      { value: '36+', label: 'Injection Molding Machines, up to 950T' },
+      { value: '400+', label: 'Molds Produced' },
+      { value: '220+', label: 'Employees' },
+      { value: '200+', label: 'Distinct Products' },
+      { value: '3', label: 'Manufacturing Units in Chennai' },
+    ],
+    capabilitiesTitle: 'What We Do',
+    capabilitiesSubtitle:
+      'A complete in-house chain from tool design through finished, inspected assemblies.',
+    capabilities: [
+      {
+        title: 'Tool & Mold Design',
+        body: 'Stage-gated tool design process (P1-P7) from feasibility through mass-production release, using SolidWorks, edge and AutoCAD.',
+      },
+      {
+        title: 'Tool Manufacturing',
+        body: 'In-house EDM spark erosion, high-precision wire-cut EDM, and 5-axis & 4-axis VMC machining for dies from 160mm to 1300mm.',
+      },
+      {
+        title: 'Injection Molding',
+        body: '36+ injection molding machines ranging from 40 to 950 tons, across dust-free, epoxy-floored molding plants.',
+      },
+      {
+        title: 'Secondary Processes & Assembly',
+        body: 'Assembly and final inspection on engineering plastic parts before dispatch — built around customer DCN and SOP/SIP standards.',
+      },
+      {
+        title: 'Quality & Metrology',
+        body: 'Zeiss CMM inspection, video measuring machines, surface tables, melt flow index and moisture testing back every batch.',
+      },
+      {
+        title: 'Prototype & Trial Builds',
+        body: 'Full S0-S5 development milestones — DFMEA, mold flow analysis, trial runs, Cpk/Ppk capability studies and PPAP-ready documentation.',
+      },
+    ],
+    certTitle: 'Certified to Global Standards',
+    certifications: [
+      'IATF 16949:2016',
+      'ISO 9001:2015',
+      'ISO 14001:2015',
+      'ISO 45001:2018',
+      'SQ Mark Certified',
+      'ZED Gold Certified',
+    ],
+    customersTitle: 'Trusted Across the Automotive Supply Chain',
+    customersSubtitle:
+      'Supplying engineering plastic parts indirectly to global OEMs through long-standing Tier-1 partnerships.',
+    oemTitle: 'OEM Business Mix',
+    tier1Title: 'Direct Tier-1 Customers',
+    tier1List: ['Woory', 'Kwangjin India', 'Mindarika', 'Webasto', 'DS Connectors', 'Kwangsung Sundhar', 'KSASPL', 'ZF Rane'],
+    segmentsTitle: 'Automotive Segments We Serve',
+    segments: [
+      { name: 'Sunroof Systems', body: 'System frames, lock & lift cam slots, BOW and cross-member components.' },
+      { name: 'Sun Visors', body: 'Front cap, rear cap, slide core, mirror sub-assembly and pad sub-assembly parts.' },
+      { name: 'HVAC Panels', body: 'Guide sets, housings and control panel components across multiple vehicle platforms.' },
+      { name: 'Door Window Regulators', body: 'Carrier plates, drum covers, base plates and power drum components.' },
+    ],
+    ctaTitle: 'Looking for a Tooling & Molding Partner You Can Scale With?',
+    ctaBody: 'Tell us about your part, program timeline and volumes — our team will respond with feasibility and a quotation.',
+    ctaButton: 'Start the Conversation',
+  },
+  footer: {
+    addressTitle: 'Manufacturing Location',
+    address: 'Chennai, Tamil Nadu, India — 3 manufacturing units',
+    quickLinks: 'Quick Links',
+    getInTouch: 'Get in Touch',
+    rights: 'All rights reserved.',
+    domainNote: 'Finetech Enterprises',
+  },
+  common: {
+    readMore: 'Read More',
+    learnMore: 'Learn More',
+    viewAll: 'View All',
+    backToHome: 'Back to Home',
+    minutesRead: 'min read',
+  },
+  about: {
+    title: 'About Finetech Enterprises',
+    subtitle: 'Two decades of precision tooling and injection molding, built one milestone at a time.',
+    storyTitle: 'Our Story',
+    storyBody:
+      'Finetech Enterprises was established in 2004 in a 100 sq.ft unit doing EDM spark erosion job work. What began as a small tool room has grown into a three-unit manufacturing group in Chennai — encompassing a dedicated tool room and two injection molding plants — serving the automotive industry with mold design, injection molding, and secondary processes on engineering plastic parts.',
+    missionTitle: 'Our Mission',
+    missionBody:
+      'To provide superior customer service by merging innovative design with advanced manufacturing technology — continually striving toward zero defects in products, processes and services through continuous innovation, diligence and commitment.',
+    milestonesTitle: 'Milestones',
+    milestones: [
+      { year: '2004', text: 'Finetech established in 100 sq.ft with EDM spark erosion job work.' },
+      { year: '2007', text: 'Plant layout expanded from 4,000 to 8,000 sq.ft for tool room and CNC wire EDM expansion.' },
+      { year: '2009', text: 'Plant expanded from 100 to 4,000 sq.ft for automotive products (Woory & RNAIPL).' },
+      { year: '2011', text: 'Added 2 VMC machines and certified to ISO standards.' },
+      { year: '2013', text: 'U2 fully automatic injection machines installed (100T & 150T) for part manufacturing.' },
+      { year: '2017', text: 'New customer added — Kwangjin India — and high-precision CNC wire EDM added.' },
+      { year: '2018', text: 'Certified IATF 16949 and one more injection machine added (280T).' },
+      { year: '2020', text: 'Manufacturing of hand molds and parts began.' },
+      { year: '2021', text: 'New plant added (Unit 3) with 14 machines across 12,600 sq.ft.' },
+      { year: '2022', text: 'Unit 2 fully established with 14 machines across 12,000 sq.ft.' },
+      { year: '2023', text: 'Certified KIA SQ Mark; Unit 2 capacity expanded with 350T & 650T machines; MEP kick-off (June 2023).' },
+      { year: '2024', text: 'Unit 3 certified IATF 16949, with new customer KSASPL added.' },
+      { year: '2025', text: 'Unit 3 HMI SQ Mark certified; new customer ZF Rane added through the SDP program; new 950T injection machine and VMC added in Unit 2; new double-column machine (2500mm x 2500mm) added; new EDM and wire-cut machines added; customers Flash and Webasto added; Zeiss CMM inspection instrument installed.' },
+      { year: '2026', text: 'New 950T injection machine added.' },
+      { year: '2027', text: 'Planned relocation to a wholly-owned 1,00,000 sq.ft facility.' },
+    ],
+    leadershipTitle: 'Leadership',
+    leadership: [
+      { name: 'C. Thanigai Raja', title: 'Managing Director, Tool Room' },
+      { name: 'P. Raja Krishnan', title: 'Managing Director, Admin & Development' },
+      { name: 'P. Thavamani', title: 'Managing Director, Production' },
+      { name: 'Srinivasan', title: 'Tool Development Manager' },
+      { name: 'Maran', title: 'Market & Design Development Manager' },
+      { name: 'Dharmendra', title: 'Plant Head' },
+      { name: 'Sundararaj V', title: 'Program Management & Quality Manager' },
+      { name: 'Pradeep A', title: 'QMS, IMS Lead & Management Representative' },
+    ],
+  },
+  capabilitiesPage: {
+    title: 'Capabilities',
+    subtitle: 'A complete, in-house chain from tool design through finished, inspected assemblies.',
+    processTitle: 'Manufacturing Process',
+    processSteps: ['Customers', 'Design', 'Tool Manufacturing', 'Injection Molding', 'Assembly'],
+    stageGateTitle: 'Tool Design & Prototype Stage-Gate Process',
+    stageGateBody:
+      'Every tool program runs through seven development milestones (P1-P7) and six sample stages (S0-S5) — from feasibility evaluation and DFMEA through trial runs, HVPT/LVPT evaluation, Cpk/Ppk capability studies and mass-production release.',
+    materialsTitle: 'Raw Materials We Process',
+    materials: [
+      'TPE', 'LDPE & HDPE', 'PP LGF 20% / 30% / 40%', 'K Resin', 'Styrene',
+      'PC Clear / Black / Grey', 'PP EPDM / YPK / NNB', 'PC Lexan', 'ABS Black / White',
+      'PC-ABS', 'PA6, PA66-UF', 'PA66 GF 15% / 30% / 33%', 'PP GF 30% / 40% / 50%',
+      'POM & Delrin', 'PBT GF 30% Blue / Black', 'PE', 'PA66 GF 50%', 'POM Kocecal',
+    ],
+    dieTitle: 'Die Capacity',
+    dieBody: 'Minimum die size: 160mm. Maximum die size: 1300mm.',
+  },
+  infrastructurePage: {
+    title: 'Infrastructure & Equipment',
+    subtitle: 'Tool room, molding plants, and metrology — all under one group.',
+    toolRoomTitle: 'Unit 1 — Tool Room',
+    toolRoomItems: ['EDM Sparking Machines', '5-Axis & 4-Axis VMC Machines', 'Wire-Cut EDM Machining', 'Mould Inspection'],
+    moldingTitle: 'Injection Molding Units',
+    moldingBody: 'Plant 2, Plant 3 and Plant 4 operate dust-free, epoxy-floored molding environments equipped with machines among the best in their class.',
+    machineTableTitle: 'Molding Machine Tonnage',
+    machineTable: [
+      { tonnage: '950 T', qty: '2' }, { tonnage: '650 T', qty: '2' }, { tonnage: '350 T', qty: '1' },
+      { tonnage: '300 T', qty: '1' }, { tonnage: '280 T', qty: '2' }, { tonnage: '200 T', qty: '3' },
+      { tonnage: '150 T', qty: '6' }, { tonnage: '110 T', qty: '1' }, { tonnage: '100 T', qty: '2' },
+      { tonnage: '80 T', qty: '9' }, { tonnage: '60 T', qty: '2' }, { tonnage: '50 T', qty: '3' },
+      { tonnage: '40 T', qty: '2' }, { tonnage: 'Total', qty: '36' },
+    ],
+    testingTitle: "Testing Equipment",
+    testingItems: ['Zeiss CMM Machine', 'Video Measuring Machine', 'Checking Fixtures (C/F)', 'Height Gauge', 'Surface Table', 'Vernier Calliper', 'Analytical Balance Testing', 'Melt Flow Index (MFI) Testing', 'Moisture Tester'],
+    trainingTitle: 'Training Room',
+    trainingBody: 'A dedicated, equipped training room supports continuous upskilling of our 220+ strong workforce.',
+  },
+  qualityPage: {
+    title: 'Quality & Certifications',
+    subtitle: 'Certified to the standards global OEMs and Tier-1 suppliers require.',
+    certifications: [
+      { name: 'IATF 16949:2016', body: 'The global automotive quality management standard, certified across our units.' },
+      { name: 'ISO 9001:2015', body: 'International standard for quality management systems.' },
+      { name: 'ISO 14001:2015', body: 'Environmental management systems certification.' },
+      { name: 'ISO 45001:2018', body: 'Occupational health and safety management systems certification.' },
+      { name: 'SQ Mark Certified', body: 'Including KIA SQ Mark and Unit 3 HMI SQ Mark.' },
+      { name: 'ZED Gold Certified', body: 'Zero Defect Zero Effect Gold certification.' },
+    ],
+    goalsTitle: 'Goals to Succeed',
+    goals: [
+      'Continuous innovation, diligence and commitment.',
+      'Continually strive to achieve zero defects in products, process and services.',
+      'Commitment, integrity, responsibility.',
+    ],
+  },
+  customersPage: {
+    title: 'Customers',
+    subtitle: 'Serving global OEMs through trusted, long-term Tier-1 partnerships.',
+    oemNote: 'Indirect automotive OEM customers (share of business via Tier-1 partners):',
+    oemMix: [
+      { name: 'Hyundai', pct: 35 }, { name: 'Mindarika', pct: 25 }, { name: 'Kwangjin', pct: 25 },
+      { name: 'Renault Nissan', pct: 22 }, { name: 'Woory', pct: 20 }, { name: 'Toyota', pct: 14 },
+      { name: 'KIA', pct: 15 }, { name: 'Kwangsung Sundhar', pct: 10 }, { name: 'DS Connectors', pct: 10 },
+      { name: 'Webasto', pct: 10 }, { name: 'Mahindra', pct: 5 }, { name: 'Tata', pct: 5 }, { name: 'MG', pct: 4 },
+    ],
+    tier1Note: 'Direct Tier-1 customers:',
+  },
+  contactPage: {
+    title: 'Contact Us',
+    subtitle: "Tell us about your part, program and timeline — we'll get back with feasibility and quotation.",
+    formName: 'Full Name',
+    formCompany: 'Company',
+    formEmail: 'Email',
+    formPhone: 'Phone',
+    formMessage: 'Tell us about your requirement',
+    formSubmit: 'Send Message',
+    locationTitle: 'Our Location',
+    locationBody: 'Chennai, Tamil Nadu, India',
+  },
+  careersPage: {
+    title: 'Careers at Finetech',
+    subtitle: 'Join a 220+ strong team building precision tooling and molded parts for the global automotive industry.',
+    whyTitle: 'Why Finetech',
+    whyBody:
+      'We invest in continuous training through a dedicated training room, work across IATF 16949-certified facilities, and give our people exposure to the full chain — from tool design to finished, inspected parts.',
+    openRolesTitle: 'Current Opportunities',
+    openRolesBody: "We're always interested in hearing from skilled tool makers, CNC/VMC programmers, quality engineers and production specialists. Reach out via the contact page with your resume.",
+  },
+  blogPage: {
+    title: 'Insights',
+    subtitle: 'Perspectives on tooling, injection molding and the automotive supply chain.',
+  },
+};
+
+export default en;
+export type Messages = typeof en;

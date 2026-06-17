@@ -1,8 +1,9 @@
 'use client'
 
-import { ArrowRight, Layers } from 'lucide-react'
+import { Layers } from 'lucide-react'
 import { useI18n } from '@/lib/i18n'
 import PageHero from '@/components/PageHero'
+import ProcessFlowSketch from '@/components/ProcessFlowSketch'
 
 export default function CapabilitiesPage() {
   const { t } = useI18n()
@@ -16,20 +17,14 @@ export default function CapabilitiesPage() {
         subtitle={c.subtitle}
       />
 
-      {/* Process flow */}
-      <section className="py-16 lg:py-20 bg-themed">
+      {/* Process flow — sketched manufacturing journey */}
+      <section className="py-16 lg:py-20 bg-themed overflow-hidden">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <h2 className="text-center text-2xl sm:text-3xl font-bold text-themed mb-12">{c.processTitle}</h2>
-          <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4">
-            {c.processSteps.map((step, i) => (
-              <div key={i} className="flex items-center gap-3 sm:gap-4">
-                <div className="rounded-lg border border-themed bg-card-themed px-5 py-4 text-center min-w-[120px]">
-                  <span className="text-sm font-semibold text-themed">{step}</span>
-                </div>
-                {i < c.processSteps.length - 1 && <ArrowRight size={20} className="text-accent-themed shrink-0" />}
-              </div>
-            ))}
-          </div>
+          <h2 className="text-center text-2xl sm:text-3xl font-bold text-themed mb-2">{c.processTitle}</h2>
+          <p className="text-center text-muted-themed text-sm sm:text-base mb-14 max-w-xl mx-auto">
+            One continuous, hand-built chain — every part traces this same path from first sketch to final inspection.
+          </p>
+          <ProcessFlowSketch steps={c.processSteps} />
         </div>
       </section>
 

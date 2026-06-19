@@ -39,34 +39,6 @@ export default function InfrastructurePage() {
         </div>
       </section>
 
-      {/* Machine table */}
-      <section className="py-16 lg:py-20 bg-themed">
-        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl sm:text-3xl font-bold text-themed mb-8 text-center">{i18nfra.machineTableTitle}</h2>
-          <div className="overflow-hidden rounded-xl border border-themed">
-            <table className="w-full text-sm">
-              <thead className="bg-primary-themed text-white">
-                <tr>
-                  <th className="px-4 py-3 text-left font-semibold">Tonnage</th>
-                  <th className="px-4 py-3 text-right font-semibold">Quantity</th>
-                </tr>
-              </thead>
-              <tbody>
-                {i18nfra.machineTable.map((row, idx) => (
-                  <tr
-                    key={idx}
-                    className={`border-t border-themed ${row.tonnage === 'Total' ? 'bg-elevated-themed font-bold' : 'bg-card-themed'}`}
-                  >
-                    <td className="px-4 py-3 text-themed">{row.tonnage}</td>
-                    <td className="px-4 py-3 text-right text-themed">{row.qty}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </section>
-
       {/* Testing equipment */}
       <section className="py-16 lg:py-20 bg-elevated-themed">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">

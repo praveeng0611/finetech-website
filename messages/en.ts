@@ -34,7 +34,7 @@ const en = {
         kicker: 'IATF 16949 · ISO 9001 · ISO 14001 · ISO 45001 · SQ Mark',
         title: 'Certified Quality. Proven at Scale.',
         subtitle:
-          '₹580 million turnover in FY25-26, 400+ molds produced, 220+ employees — serving Hyundai, KIA, Renault-Nissan, Toyota, Mahindra, Tata and MG through trusted Tier-1 partners.',
+          '400+ molds produced, 220+ employees — serving Hyundai, KIA, Renault-Nissan, Toyota, Mahindra, Tata and MG through trusted Tier-1 partners.',
       },
       {
         kicker: 'Sunroofs · Sun Visors · HVAC Panels · Door Window Regulators',
@@ -48,7 +48,6 @@ const en = {
       'Finetech Enterprises provides single-shop solutions for car interior and exterior parts — spanning mold design, injection molding, and secondary processes on engineering plastic parts used across the automotive industry. Founded in 2004 with a 100 sq.ft EDM spark erosion job-work unit, we have grown into a three-unit manufacturing group across Chennai with an in-house tool room, two injection molding plants, and a dedicated quality and testing infrastructure.',
     statsTitle: 'Finetech In Short',
     stats: [
-      { value: '₹580M', label: 'Turnover, FY25-26' },
       { value: '36+', label: 'Injection Molding Machines, up to 950T' },
       { value: '400+', label: 'Molds Produced' },
       { value: '220+', label: 'Employees' },

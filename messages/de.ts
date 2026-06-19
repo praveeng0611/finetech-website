@@ -36,7 +36,7 @@ const de: Messages = {
         kicker: 'IATF 16949 · ISO 9001 · ISO 14001 · ISO 45001 · SQ Mark',
         title: 'Zertifizierte Qualität. Bewährt im großen Maßstab.',
         subtitle:
-          '580 Millionen ₹ Umsatz im Geschäftsjahr 25-26, über 400 produzierte Werkzeuge, 220+ Mitarbeiter — im Einsatz für Hyundai, KIA, Renault-Nissan, Toyota, Mahindra, Tata und MG über vertrauenswürdige Tier-1-Partner.',
+          'Über 400 produzierte Werkzeuge, 220+ Mitarbeiter — im Einsatz für Hyundai, KIA, Renault-Nissan, Toyota, Mahindra, Tata und MG über vertrauenswürdige Tier-1-Partner.',
       },
       {
         kicker: 'Sonnendächer · Sonnenblenden · HVAC-Bedienfelder · Türfensterheber',

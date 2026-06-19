@@ -36,7 +36,7 @@ const fr: Messages = {
         kicker: 'IATF 16949 · ISO 9001 · ISO 14001 · ISO 45001 · SQ Mark',
         title: 'Une qualité certifiée. Une performance prouvée à grande échelle.',
         subtitle:
-          '580 millions ₹ de chiffre d’affaires sur l’exercice 25-26, plus de 400 moules produits, plus de 220 employés — au service de Hyundai, KIA, Renault-Nissan, Toyota, Mahindra, Tata et MG via des partenaires de rang 1 de confiance.',
+          'Plus de 400 moules produits, plus de 220 employés — au service de Hyundai, KIA, Renault-Nissan, Toyota, Mahindra, Tata et MG via des partenaires de rang 1 de confiance.',
       },
       {
         kicker: 'Toits ouvrants · Pare-soleil · Panneaux HVAC · Lève-vitres',
@@ -50,7 +50,6 @@ const fr: Messages = {
       'Finetech Enterprises propose des solutions intégrées pour les pièces intérieures et extérieures automobiles — couvrant la conception d’outillage, le moulage par injection et les procédés secondaires sur pièces plastiques techniques utilisées dans l’industrie automobile. Fondée en 2004 dans un atelier d’environ 9,3 m² dédié à l’électroérosion, l’entreprise est devenue un groupe de trois sites de production à Chennai, doté d’un atelier d’outillage interne, de deux usines de moulage par injection et d’une infrastructure dédiée de qualité et d’essais.',
     statsTitle: 'Finetech en bref',
     stats: [
-      { value: '580 M ₹', label: 'Chiffre d’affaires, exercice 25-26' },
       { value: '36+', label: 'Presses à injecter, jusqu’à 950T' },
       { value: '400+', label: 'Moules produits' },
       { value: '220+', label: 'Employés' },

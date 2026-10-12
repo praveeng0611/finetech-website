@@ -40,7 +40,7 @@ export default function HeroCarousel() {
               <div className="max-w-3xl">
                 {i === index && (
                   <>
-                    <p className="animate-fade-up text-sm sm:text-base font-semibold tracking-wider text-orange-300 uppercase mb-4" style={{ animationDelay: '0.1s' }}>
+                    <p className="animate-fade-up text-sm sm:text-base font-semibold tracking-wider uppercase mb-4" style={{ animationDelay: '0.1s', color: '#5aabee' }}>
                       {slide.kicker}
                     </p>
                     <h1 className="animate-fade-up text-3xl sm:text-5xl lg:text-6xl font-extrabold leading-tight text-white mb-6" style={{ animationDelay: '0.25s' }}>
@@ -50,7 +50,7 @@ export default function HeroCarousel() {
                       {slide.subtitle}
                     </p>
                     <div className="animate-fade-up flex flex-wrap gap-3" style={{ animationDelay: '0.55s' }}>
-                      <Link href="/contact" className="rounded-md bg-orange-600 px-6 py-3 text-sm sm:text-base font-semibold text-white hover:bg-orange-700 transition-colors">
+                      <Link href="/contact" className="rounded-md px-6 py-3 text-sm sm:text-base font-semibold text-white transition-colors" style={{ backgroundColor: '#2080cc' }} onMouseOver={e => (e.currentTarget.style.backgroundColor = '#1a6db5')} onMouseOut={e => (e.currentTarget.style.backgroundColor = '#2080cc')}>
                         {t.home.ctaButton}
                       </Link>
                       <Link href="/capabilities" className="rounded-md border border-white/40 px-6 py-3 text-sm sm:text-base font-semibold text-white hover:bg-white/10 transition-colors">
@@ -86,7 +86,8 @@ export default function HeroCarousel() {
             key={i}
             onClick={() => setIndex(i)}
             aria-label={`Go to slide ${i + 1}`}
-            className={`h-2 rounded-full transition-all ${i === index ? 'w-8 bg-orange-500' : 'w-2 bg-white/40 hover:bg-white/70'}`}
+            className={`h-2 rounded-full transition-all ${i === index ? 'w-8' : 'w-2 bg-white/40 hover:bg-white/70'}`}
+            style={i === index ? { backgroundColor: '#2080cc' } : {}}
           />
         ))}
       </div>

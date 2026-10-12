@@ -20,17 +20,18 @@ const ThemeContext = createContext<ThemeCtx>({
 })
 
 export const COLOR_THEMES: { id: ColorTheme; label: string; hex: string }[] = [
-  { id: 'industrial-blue', label: 'Industrial Blue', hex: '#163358' },
+  { id: 'industrial-blue', label: 'Finetech Blue', hex: '#0d2259' },
   { id: 'graphite', label: 'Graphite', hex: '#2B2F36' },
-  { id: 'forge-orange', label: 'Forge Orange', hex: '#C24A1E' },
+  { id: 'forge-orange', label: 'Steel Grey', hex: '#3a4a5c' },
 ]
 
 function applyTheme(color: ColorTheme, mode: DarkMode) {
   const root = document.documentElement
   const colors = {
-    'industrial-blue': { p: '#163358', pl: '#eef2f7', pd: '#0E2440', ps: '#d6dfeb', accent: '#E8541F' },
-    graphite: { p: '#2B2F36', pl: '#eceef0', pd: '#16181C', ps: '#d4d8dd', accent: '#E8541F' },
-    'forge-orange': { p: '#C24A1E', pl: '#fdeee6', pd: '#8C3414', ps: '#f7d9c8', accent: '#163358' },
+    /* Finetech brand: dark navy primary, bright blue accent */
+    'industrial-blue': { p: '#0d2259', pl: '#e8edf8', pd: '#071640', ps: '#c2d2ee', accent: '#2080cc' },
+    graphite: { p: '#2B2F36', pl: '#eceef0', pd: '#16181C', ps: '#d4d8dd', accent: '#2080cc' },
+    'forge-orange': { p: '#3a4a5c', pl: '#eaecef', pd: '#22303f', ps: '#c8d4e0', accent: '#2080cc' },
   }[color]
 
   root.style.setProperty('--primary', colors.p)

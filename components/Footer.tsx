@@ -13,12 +13,9 @@ export default function Footer() {
       <div className="mx-auto max-w-8xl px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <img src="/images/brand/icon.svg" alt="Finetech" className="h-9 w-9" />
-              <div className="flex flex-col leading-none">
-                <span className="text-base font-bold tracking-tight">FINETECH</span>
-                <span className="text-[10px] tracking-widest text-white/70">ENTERPRISES</span>
-              </div>
+            <div className="flex items-center gap-3 mb-4">
+              <img src="/images/brand/icon-new.png" alt="FT" className="h-10 w-10 object-contain brightness-0 invert" />
+              <img src="/images/brand/logo-wordmark.png" alt="Finetech Autocomponents Pvt. Ltd." className="h-9 w-auto object-contain brightness-0 invert" />
             </div>
             <p className="text-sm text-white/70">{t.meta.tagline}</p>
           </div>

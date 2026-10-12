@@ -40,12 +40,13 @@ export default function Navbar() {
     >
       <div className="mx-auto max-w-8xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 lg:h-20 items-center justify-between">
-          <Link href="/" className="flex items-center gap-2 shrink-0">
-            <img src="/images/brand/icon.svg" alt="Finetech" className="h-9 w-9 lg:h-10 lg:w-10" />
-            <span className="hidden sm:flex flex-col leading-none">
-              <span className="text-base lg:text-lg font-bold tracking-tight text-themed">FINETECH</span>
-              <span className="text-[10px] lg:text-xs tracking-widest text-muted-themed">ENTERPRISES</span>
-            </span>
+          <Link href="/" className="flex items-center gap-3 shrink-0">
+            <img src="/images/brand/icon-new.png" alt="FT" className="h-9 w-9 lg:h-10 lg:w-10 object-contain" />
+            <img
+              src="/images/brand/logo-wordmark.png"
+              alt="Finetech Autocomponents Pvt. Ltd."
+              className="hidden sm:block h-8 lg:h-9 w-auto object-contain"
+            />
           </Link>
 
           <nav className="hidden lg:flex items-center gap-1">

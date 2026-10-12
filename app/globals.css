@@ -3,17 +3,20 @@
 @tailwind utilities;
 
 :root {
-  --primary: #163358;
-  --primary-light: #eef2f7;
-  --primary-dark: #0E2440;
-  --primary-soft: #d6dfeb;
-  --accent: #E8541F;
+  /* Finetech brand: dark navy (#0d2259) + bright blue (#2080cc) */
+  --primary: #0d2259;
+  --primary-light: #e8edf8;
+  --primary-dark: #071640;
+  --primary-soft: #c2d2ee;
+  --accent: #2080cc;
+  --accent-hover: #1a6db5;
+  --accent-light: #e3f0fb;
   --bg: #ffffff;
   --bg-card: #ffffff;
-  --bg-elevated: #f6f8fa;
-  --text: #10243F;
-  --text-muted: #5B6B7C;
-  --border: #e2e8f0;
+  --bg-elevated: #f4f7fc;
+  --text: #0d2259;
+  --text-muted: #5a6a87;
+  --border: #dde4f0;
 }
 
 * {

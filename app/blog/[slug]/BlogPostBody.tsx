@@ -15,7 +15,7 @@ export default function BlogPostBody({ post }: { post: BlogPost }) {
         <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/45 to-black/30" />
         <div className="relative z-10 flex h-full items-end">
           <div className="mx-auto max-w-3xl w-full px-4 sm:px-6 lg:px-8 pb-10">
-            <span className="text-xs font-semibold uppercase tracking-wider text-orange-300">{post.category}</span>
+            <span className="text-xs font-semibold uppercase tracking-wider" style={{ color: '#5aabee' }}>{post.category}</span>
             <h1 className="text-2xl sm:text-4xl font-extrabold text-white mt-3">{post.title}</h1>
             <p className="text-sm text-white/75 mt-3">{post.date} · {post.minutesRead} {t.common.minutesRead}</p>
           </div>
